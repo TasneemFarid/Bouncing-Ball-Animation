@@ -1,0 +1,75 @@
+body {
+    overflow: hidden;
+}
+
+#green {
+    height: 50px;
+    width: 200px;
+    background: green;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#red {
+    height: 50px;
+    width: 200px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+#blue {
+   height: 50px;
+   width: 200px; 
+   background: blue;
+   position: absolute;
+   top: 500px;
+   left: 700px;
+}
+
+#yellow {
+   height: 50px;
+   width: 200px; 
+   background: yellow;
+   position: absolute;
+   top: 100px;
+   left: 1000px;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    animation: bounce 2s linear infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 100px;
+        left: 200px;
+    }
+    50% {
+        top: 50px;
+        left: 400px;
+    }
+    75% {
+        top: 400px;
+        left: 700px;
+    }
+    85% {
+        top: 150px;
+        left: 1000px;
+    }
+    100% { 
+        top: 100%;
+        left: 100%;
+    }
+}
